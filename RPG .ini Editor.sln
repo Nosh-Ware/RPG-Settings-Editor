@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1062
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPG .ini Editor", "RPG .ini Editor.csproj", "{A8190ECA-A3E5-42FA-8AAB-BA3EB6E99AAA}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Installer", "Installer\Installer.vdproj", "{F6B162E8-CA31-45A2-AE9C-A422488E558A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{A8190ECA-A3E5-42FA-8AAB-BA3EB6E99AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8190ECA-A3E5-42FA-8AAB-BA3EB6E99AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8190ECA-A3E5-42FA-8AAB-BA3EB6E99AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B162E8-CA31-45A2-AE9C-A422488E558A}.Debug|Any CPU.ActiveCfg = Debug
+		{F6B162E8-CA31-45A2-AE9C-A422488E558A}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
