@@ -315,22 +315,5 @@ namespace RPG.ini_Editor
                 MessageBox.Show("Error from " + ex.Source + " is: " + ex.Message, "Error");
             }
 }
-
-        private void DonateLink(object sender, MouseEventArgs e)
-        {
-            try
-            {
-                System.Diagnostics.Process.Start("https://www.patreon.com/noshware?fan_landing=true");
-            }
-            catch (System.ComponentModel.Win32Exception noBrowser)
-            {
-                if (noBrowser.ErrorCode == -2147467259)
-                    MessageBox.Show(noBrowser.Message);
-            }
-            catch (System.Exception other)
-            {
-                MessageBox.Show(other.Message);
-            }
-        }
     }
 }

@@ -47,7 +47,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtGameTitle = new System.Windows.Forms.TextBox();
             this.tabSet = new System.Windows.Forms.TabControl();
-            this.donateLink = new System.Windows.Forms.LinkLabel();
             this.groupProjectLocation.SuspendLayout();
             this.tabEditorSettings.SuspendLayout();
             this.tabGameSettings.SuspendLayout();
@@ -240,24 +239,11 @@
             this.tabSet.Size = new System.Drawing.Size(439, 115);
             this.tabSet.TabIndex = 0;
             // 
-            // donateLink
-            // 
-            this.donateLink.AutoSize = true;
-            this.donateLink.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.donateLink.Location = new System.Drawing.Point(395, 69);
-            this.donateLink.Name = "donateLink";
-            this.donateLink.Size = new System.Drawing.Size(54, 12);
-            this.donateLink.TabIndex = 7;
-            this.donateLink.TabStop = true;
-            this.donateLink.Text = "Donate? ❤";
-            this.donateLink.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.DonateLink);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(463, 190);
-            this.Controls.Add(this.donateLink);
             this.Controls.Add(this.groupProjectLocation);
             this.Controls.Add(this.tabSet);
             this.Name = "Form1";
@@ -270,7 +256,6 @@
             this.tabGameSettings.PerformLayout();
             this.tabSet.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -294,7 +279,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtGameTitle;
         private System.Windows.Forms.TabControl tabSet;
-        private System.Windows.Forms.LinkLabel donateLink;
     }
 }
 
