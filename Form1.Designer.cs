@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.FolderDia = new System.Windows.Forms.FolderBrowserDialog();
             this.groupProjectLocation = new System.Windows.Forms.GroupBox();
             this.butOpenDia = new System.Windows.Forms.Button();
@@ -246,6 +247,7 @@
             this.ClientSize = new System.Drawing.Size(463, 190);
             this.Controls.Add(this.groupProjectLocation);
             this.Controls.Add(this.tabSet);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "ERPG Settings Editor";
             this.groupProjectLocation.ResumeLayout(false);

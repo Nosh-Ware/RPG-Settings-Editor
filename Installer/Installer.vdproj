@@ -139,11 +139,6 @@
             "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
-                    "_7B54448C50F1CDB35497F3EB4967E593"
-                    {
-                    "Name" = "8:System.Net.Http.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:System.Net.Http.dll"
             "TargetName" = "8:"
@@ -219,15 +214,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:RPG Settings Editor"
-        "ProductCode" = "8:{2BF8EE9C-0CCA-49EB-8DD2-B91F592F4FE0}"
-        "PackageCode" = "8:{0A25F8F0-07C4-4249-BB03-3BAC3BAEF151}"
+        "ProductCode" = "8:{FCAA928C-D17F-4912-83F5-CFED4786676F}"
+        "PackageCode" = "8:{1AC81B9D-E470-48A3-93A6-3B8E2C954676}"
         "UpgradeCode" = "8:{E994E59D-E904-461B-9DEA-75C283955383}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.2"
+        "ProductVersion" = "8:1.0.3"
         "Manufacturer" = "8:Default Company Name"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
